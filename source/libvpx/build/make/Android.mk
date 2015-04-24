@@ -85,7 +85,7 @@ SRC_PATH_BARE := $(LIBVPX_PATH)
 include $(LIBVPX_PATH)/libs.mk
 
 # Optimise the code. May want to revisit this setting in the future.
-LOCAL_CFLAGS := -O3
+LOCAL_CFLAGS := -w -O3
 
 # For x86, include the source code in the search path so it will find files
 # like x86inc.asm and x86_abi_support.asm
